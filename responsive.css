@@ -1,0 +1,52 @@
+@media screen and (max-width:600px){
+    h1{
+        font-size: 28px;
+    }
+    .container{
+        flex-direction: column-reverse;
+        /* max-height:80%; */
+        max-width:max-content;
+        max-height:100%;
+        gap:1em;
+    }
+    .container h4{
+        display: inline-block;
+        margin-bottom: 1.2em;
+
+    }
+   
+      
+
+    .image-forgot {
+        /* width: 700px; Set the desired width of the container */
+        height: auto; /* Let the height adjust proportionally */
+        margin-bottom: 2em;
+        padding-top: 2em;
+        margin: 0 auto;
+    
+      }
+      .image-forgot p{
+        width: 200px;
+      }
+      
+      .image-forgot img {
+        max-width: 100%; /* Ensure the image doesn't exceed its container's width */
+        height: auto; /* Allow the image's height to adjust proportionally */
+        background-color: transparent;
+        width: 200px;
+       
+        
+      }
+    .typewriter{
+        font-size: 14px;
+        margin-top: 20;
+    }
+    form{
+        margin-bottom: 2.5em;
+    }
+    
+
+
+
+    
+}

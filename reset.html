@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet"  href="stylereset.css">
+    <link rel="stylesheet" href="responsive.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forgot password?</title>
+</head>
+<body>
+
+   <div class="container">
+    <div class="image-forgot">
+        <img src="images/forgot-password.avif">
+        <p>No worries,we will send you a link to reset your password right away!</p>
+    </div>
+    <form method="post" action="reset_pass.php">
+        <div class="container-1">
+            <i class='bx bxs-envelope' ></i>
+            <input type="email" id="email" name="email" placeholder="Enter email" required>
+        </div>
+        <div class="holder">
+            <input type="submit"  id="btn" name="submit_mail" value="Send email">
+        </div>
+        <p><a href="registration.html" style="text-decoration: none;color: orange; font-weight: bold;">Back to our login page?</a></p>
+    </form>
+
+   </div>
+</body>
+</html>

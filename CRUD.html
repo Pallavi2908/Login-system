@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <link rel="stylesheet"  href="style.css"> -->
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD</title>
+</head>
+<body>
+    <h1>Create</h1>
+    <form action="validation.php" method="post">
+        <div>
+            <input type="text" id="username" name="username" placeholder="Create a username" required>  
+        </div>
+        <div>
+            <input type="text" id="pwd" name="pwd" placeholder="Create a password" required>
+        </div>
+        <div>
+            <input type="password" id="pwd" name="checkpwd" placeholder="Re-enter password" required>
+        </div>
+        <div>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        </div>
+        <div>
+            <input type="text" id="company" name="company" placeholder="Enter your org." required>
+        </div>        
+        <div class="holder">
+            <input type="submit"  id="btn" name="submit" value="Create">
+        </div>
+            
+    </form>
+    
+</body>
+</html>
