@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet"  href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+</head>
+<body>
+    <h1 style="text-align: center; padding-bottom:0.5em">Registration page</h1>
+    
+    <div class="container">
+        <div class="image">
+            <img src="images/signup-image.jpg">
+            <div class="typewriter">
+                <h3><a  href="login.html" style="text-decoration: none;">Already have an account?</a></h3>
+            </div>         
+        </div>
+        <form action="creation.php" method="post">
+            <div class="container-1">
+                <i class='bx bxs-envelope' ></i>
+                <input type="email" id="email" name="email" placeholder="Enter email" required>
+            </div>
+            <div class="container-1">
+                <i class='bx bxs-lock-alt' ></i>
+                <input type="text" id="password" name="password" placeholder="Create password" required>
+            </div>
+           
+            <div class="container-1">
+                <i class='bx bxs-buildings'></i>
+                <input type="text" id="company" name="company" placeholder="Enter company" required>
+            </div>
+            <div class="holder">
+                <input type="submit"  id="btn" name="submit_mail" value="Create">
+            </div>
+           
+        </form>
+        
+
+    </div>
+    
+</body>
+</html>

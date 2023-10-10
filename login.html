@@ -4,12 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet"  href="style.css">
-    <link rel="stylesheet" href="responsive.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet"  href="style.css">
 
 </head>
 <body>
@@ -18,25 +17,23 @@
     <div class="image">
         <img src="images/signin-image.jpg">
         <div class="typewriter">
-            <h3><a  href="registration.html" style="text-decoration: none;">Not a member yet?</a></h3>
+            <h3><a  href="register.html" style="text-decoration: none;">Not a member yet?</a></h3>
         </div>  
     </div>
 
     <form action="authentication.php" method="post">
         <div class="container-1">
-            <i class='bx bxs-user'></i>
-            <input type="text" id="user" name="user" placeholder="Username" class="entry">
+            <i class='bx bxs-envelope' ></i>
+            <input type="email" id="email" name="email" placeholder="Enter email" required>
         </div>
+        
         <div class="container-1">
             <i class='bx bxs-lock-alt' ></i>
             <input type="password" id="password" name="password" placeholder="Password" class="entry">
         </div>
         <div class="holder">
             <input type="submit"  id="btn" name="submit_mail" value="Login">
-        </div>
-        
-        
-        
+        </div>        
         
         <h4 style="background-color: transparent; margin-top:20px"><a href="reset.html">Forgot password?</a></h3>
     </form>
